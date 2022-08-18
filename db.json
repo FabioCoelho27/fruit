@@ -1,22 +1,28 @@
 {
- "fruits":[
-  {
-    "id": 1,
-    "name": "mangá",
-    "quantity": 5,
-    "price": 1.99
-  },
-  {
-    "id": 2,
-    "name": "Uva",
-    "quantity": 15,
-    "price": 9.99
-  },
-  {
-    "id": 3,
-    "name": "Laranja",
-    "quantity": 8,
-    "price": 2.99
-  }
- ]
+  "fruits": [
+    {
+      "id": 1,
+      "name": "mangá",
+      "quantity": 5,
+      "price": 1.99
+    },
+    {
+      "id": 2,
+      "name": "Uva",
+      "quantity": 15,
+      "price": 9.99
+    },
+    {
+      "id": 3,
+      "name": "Laranja",
+      "quantity": 8,
+      "price": 2.99
+    },
+    {
+      "id": 4,
+      "name": "Morango",
+      "price": 6.99,
+      "quantity": 12
+    }
+  ]
 }
