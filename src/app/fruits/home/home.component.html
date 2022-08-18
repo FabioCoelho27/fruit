@@ -11,6 +11,7 @@
         <th scope="col">Nome</th>
         <th scope="col">Quantidade</th>
         <th scope="col">Preço</th>
+        <th scope="col">Actions</th>
       </tr>
     </thead>
     <tbody>
@@ -19,6 +20,9 @@
         <td>{{item.name}}</td>
         <td>{{item.quantity}}</td>
         <td>{{item.price}}</td>
+        <td>
+          <a href="" class="btn btn-primary" [routerLink]="['/fruits/edit', item.id]">Editar</a>
+        </td>
       </tr>
     </tbody>
   </table>
